@@ -29,9 +29,9 @@ methods by which to control the flow. On completion, it must call one of those
 methods. All subsequent parameters are simply the values that were passed to
 `iteration.done()` or `iteration.repeat()` by the previous iteration, if there was
 one.
-** **`iteration.done([params...])`** - proceed to the next task in the series,
+ * **`iteration.done([params...])`** - proceed to the next task in the series,
 passing any parameters specified to that function.
-** **`iteration.repeat([params...])`** - re-run the current task, passing any
+ * **`iteration.repeat([params...])`** - re-run the current task, passing any
 parameters specified to the function.
 
 ##### Node.js:
