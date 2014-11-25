@@ -1,0 +1,21 @@
+{
+  "name": "async-waterpark",
+  "version": "0.0.1",
+  "description": "Runs a set functions in series, each passing their results to the next in the
+array, or optionally, re-running itself.",
+  "author": {
+    "name": "Jonathan Conway",
+    "url": "http://github.com/jonathanconway"
+  },
+  "homepage": "https://github.com/jonathanconway/async-waterpark",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:jonathanconway/async-waterpark.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonathanconway/async-waterpark/issues"
+  },
+  "main": "./index",
+  "keywords": ["async", "waterpark", "tasks", "control", "flow", "repeat", "retry"],
+  "dependencies": {}
+}

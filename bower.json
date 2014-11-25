@@ -1,0 +1,17 @@
+{
+  "name": "async-waterpark",
+  "repo": "jonathanconway/async-waterpark",
+  "description": "Runs a set functions in series, each passing their results to the next in the
+array, or optionally, re-running itself.",
+  "version": "0.0.1",
+  "keywords": ["async", "waterpark", "tasks", "control", "flow", "repeat", "retry"],
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "dependencies": {},
+  "development": {},
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
